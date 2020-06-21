@@ -1,0 +1,14 @@
+version: '3'
+services:
+  fizzer:
+    build: fizzer
+    ports:
+      - "7080:7080"
+  buzzer:
+    build: buzzer
+    ports:
+      - "9080:9080"
+  looper:
+    build: looper
+    ports:
+      - "8080:8080"
